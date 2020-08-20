@@ -44,4 +44,4 @@ library
     buildable: True
     default-language: Haskell2010
     hs-source-dirs: src
-    ghc-options: -Wall -fno-warn-missing-signatures -O2
+    ghc-options: -Wall -Werror -fno-warn-missing-signatures -O2
